@@ -27,7 +27,7 @@
 | PowerBI             | Data Modeling (Star Schema) | Python                                |
 | DAX                 | Power Query                 | Customer Segmentation (RFM Analysis)  |
 
-![[RFM Overview.png]]
+![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6bdddbaf-c04c-4643-a745-5a46806713d0)
 
 I have developed a comprehensive Customer Segmentation Power BI dashboard using the [Olist E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). This dashboard offers a detailed view of customer segmentation and provides valuable insights for business decision-making. It includes pages such as RFM Overview, RFM Movements, RFM Cohorts, Recency Analysis, Frequency Analysis, Monetary Analysis, and Recommendations, enabling users to understand customer behavior and make informed marketing and sales strategies.
 
