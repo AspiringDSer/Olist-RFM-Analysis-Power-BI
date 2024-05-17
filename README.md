@@ -36,7 +36,7 @@ The objective of this project is to perform an RFM (Recency, Frequency, Monetary
 
 The RFM model categorizes customers based on:
 
-![[RFM Metrics.png]]
+![RFM Metrics](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/cc6654f5-537f-4d0b-a216-3cfd6cf32abb)
 
 Customers are scored on each of these dimensions, and combined scores are used for segmentation.
 ## Key Features
@@ -50,11 +50,11 @@ Customers are scored on each of these dimensions, and combined scores are used f
 	
 - **Calculation of RFM Scores for Each Customer**
 
-![[RFM Scores.png]]
+![RFM Scores](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/c417a147-edf4-4899-a382-6869d100c09e)
 
 - **Visualization of Segments and Insights**
 
-![[Olist - Customer Segmentation.png]]
+![Customer Segmentation](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/525a4ccf-8264-402d-8ef0-a2b203f18a3f)
 
 <a name='Data-Sources'></a>
 # Data Sources
