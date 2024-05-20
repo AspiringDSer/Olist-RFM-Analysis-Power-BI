@@ -11,12 +11,7 @@
 4. [Report Structure](#Report-Structure)
 5. [RFM Calculation](#RFM-Calculation)
 6. [RFM Segmentation](#RFM-Segmentation)
-7. [Visualizations and Insights](#Visualizations-and-Insights)
-8. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
-9. [Challenges and Solutions](#Challenge-and-Solutions)
-10. [Visual Samples](#Visual-Samples)
-11. [Appendix](#Appendix)
-12. [Future Developments](#Future-Developments)
+7. [Future Developments](#Future-Developments)
 
 <a name='Project-Overview'></a>
 # Project Overview
@@ -77,8 +72,6 @@ The project's visualizations and analyses are based on the E-Commerce Dataset by
 
 ![Data Model](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/fa79e0e7-c57e-416a-9089-d751d123de28)
 The project utilized **Dimensional Data Modeling** to structure the E-commerce dataset, employing the **star schema** to construct both Fact and Dimension Tables. This approach allows for efficient data storage and retrieval, enabling users to analyze the data from different perspectives easily.
-
-In future developments, I plan to enhance the project by creating a cloud-based data warehouse solution and deploying the dataset into the solution using Dimensional Data Modeling principles. This will further optimize data storage and management, as well as facilitate scalability and accessibility.
 
 | CSV File                         | Table Description                                                                                                                                                                                               |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -228,3 +221,21 @@ Based on the combined RFM scores, we can classify customers into the following s
 [Source](https://documentation.bloomreach.com/engagement/docs/rfm-segmentation)
 
 By utilizing this scoring system, we can create tailored marketing campaigns that address the specific needs and behaviors of each customer segment, ultimately driving higher engagement, loyalty, and revenue.
+
+<a name='Future-Developments'></a>
+# Future-Developments
+[Go to TOC](#top)
+
+To further enhance this project, I plan to implement several key improvements:
+
+1. **Cloud-Based Data Warehouse Solution:**
+    
+    - **Objective:** Create a cloud-based data warehouse to optimize data storage and management.
+    - **Approach:** Use Dimensional Data Modeling principles to design and deploy the dataset into the cloud-based solution. This will not only streamline data management but also enhance scalability and accessibility, making it easier to handle growing data volumes and provide real-time analytics.
+    
+2. **Machine Learning Integration:**
+    
+    - **Objective:** Deploy a K-means clustering model to complement the RFM analysis.
+    - **Approach:** Implement a K-means clustering algorithm to further segment customers based on their RFM scores. This will provide more granular insights into customer behavior, enabling more targeted marketing strategies and personalized customer experiences.
+
+These enhancements aim to elevate the project's capabilities, making it a more robust and comprehensive tool for data analysis and customer segmentation.
