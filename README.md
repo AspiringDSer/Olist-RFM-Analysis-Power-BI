@@ -75,7 +75,7 @@ The project's visualizations and analyses are based on the E-Commerce Dataset by
 # Data Model
 [Go to TOC](#top)
 
-![[Data Model.png]]
+![Data Model](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/fa79e0e7-c57e-416a-9089-d751d123de28)
 The project utilized **Dimensional Data Modeling** to structure the E-commerce dataset, employing the **star schema** to construct both Fact and Dimension Tables. This approach allows for efficient data storage and retrieval, enabling users to analyze the data from different perspectives easily.
 
 In future developments, I plan to enhance the project by creating a cloud-based data warehouse solution and deploying the dataset into the solution using Dimensional Data Modeling principles. This will further optimize data storage and management, as well as facilitate scalability and accessibility.
@@ -89,42 +89,43 @@ In future developments, I plan to enhance the project by creating a cloud-based 
 | segmentation_recommendations.csv | This table serves as a key component of the RFM analysis, providing a structured summary of customer segmentation and corresponding retention strategies.                                                       |
 | glossary.csv                     | This glossary serves as a reference tool for individuals reviewing the RFM analysis, particularly those who may not be familiar with the specific terminology used in data analytics and customer segmentation. |
 
-<a name='Report-Structures'></a>
+<a name='Report-Structure'></a>
 # Report Structure
 [Go to TOC](#top)
 
 The Power BI dashboard is structured to provide users with interactive and insightful analysis of the E-commerce dataset. It allows navigation between seven pages and one glossary, each focusing on different aspects of the data:
 
 1. **RFM Overview**: This page provides a summary of the Recency, Frequency, and Monetary analysis. It includes visualizations and metrics that give an at-a-glance understanding of the overall customer segmentation based on their RFM scores.
- ![[RFM Overview.png]]
+   
+![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/a6fc1df9-e6ed-4dd3-bcf7-2008e3efe8c2)
  
 2. **RFM Movement**: This page tracks the changes in customer segments over time. It helps identify trends and shifts in customer behavior, showing how customers move between different RFM segments.
 
-![[RFM Movement.png]]
+![RFM Movement](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/5f4dd957-b16e-455f-aa2e-5800ddcbc88f)
     
 3. **RFM Cohorts**: This page analyzes customer cohorts based on their RFM scores. It focuses on the behavior and performance of different customer groups over specific time periods, aiding in cohort-based analysis and comparison.
 
-![[RFM Cohorts.png]]
+![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/c6f0f5b5-4b91-4b4e-94af-6a5e74e46af9)
 
 4. **Recency Analysis**: This page delves into the recency aspect of the RFM analysis. It includes detailed metrics and visualizations that show how recently customers have made purchases, highlighting trends in customer engagement.
 
-![[Recency Analysis.png]]
+![Recency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/1c7490f5-e822-42ac-bd91-b98f88542b0a)
 
 5. **Frequency Analysis**: This page focuses on the frequency of customer purchases. It provides insights into how often customers are buying, helping to identify loyal customers who purchase frequently.
 
-![[Frequency Analysis.png]]
+![Frequency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/0d998536-b6f2-45db-81a4-f23a3e4e97c0)
 
 6. **Monetary Analysis**: This page examines the monetary value of customer purchases. It includes detailed analyses and visualizations of the total spending by customers, identifying high-value customers who contribute significantly to revenue.
 
-![[Monetary Analysis.png]]
+![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/f82bc3ec-32be-423c-a9d4-dfbc820727b4)
 
 7. **Recommendations**: This page offers actionable insights and strategic recommendations based on the RFM analysis. It provides guidance on how to target different customer segments to improve retention and maximize profitability.
 
-![[Recommendations.png]]
+![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6c0c9a90-7320-4931-821b-babc547f22bb)
     
 8. **Glossary**: This page includes definitions of key terms and concepts used in the RFM analysis. It serves as a reference tool to ensure clarity and understanding of specialized terminology used throughout the dashboard.
 
-![[Glossary.png]]
+![Glossary](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/68e97757-629e-4eb4-9e38-927fda516611)
 
 <a name='RFM-Calculation'></a>
 # RFM Calculation
@@ -146,7 +147,9 @@ By scoring each customer on these three metrics, businesses can create distinct 
 **Calculation Method:** Number of days since the last transaction (purchase).
 
 **Code Snippet:** 
-![[recency_code_snippet.png]]
+
+![recency_code_snippet](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/30971a5f-e69f-4d41-b1c0-92b58b21ded9)
+
 More details can be found in the [Jupyter Notebook](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/blob/master/Olist%20-%20RFM%20Analysis.ipynb). 
 
 ## Frequency Calculation
@@ -155,7 +158,9 @@ More details can be found in the [Jupyter Notebook](https://github.com/AspiringD
 **Calculation Method:** Number of orders.
 
 **Code Snippet:**
-![[frequency_code_snippet.png]]
+
+![frequency_code_snippet](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/31d18727-deca-4abe-86d6-a67f09e0828b)
+
 More details can be found in the [Jupyter Notebook](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/blob/master/Olist%20-%20RFM%20Analysis.ipynb). 
 
 ## Monetary Calculation
@@ -164,7 +169,9 @@ More details can be found in the [Jupyter Notebook](https://github.com/AspiringD
 **Calculation Method:** The sum of total spend per customer. 
 
 **Code Snippet:**
-![[monetary_code_snippet.png]]
+
+![monetary_code_snippet](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6ca55db8-06c0-4951-913f-e4b2bcff9b53)
+
 More details can be found in the [Jupyter Notebook](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/blob/master/Olist%20-%20RFM%20Analysis.ipynb). 
 
 ## RFM Score Aggregation
@@ -181,7 +188,9 @@ Once we have calculated the Recency, Frequency, and Monetary values for each cus
 **Combining Scores:** Each customer’s RFM score is a concatenation of their individual Recency, Frequency, and Monetary scores, resulting in a three-digit score. For example, a customer with an R score of 4, an F score of 3, and an M score of 5 would have an RFM score of 435.
 
 **Code Snippet:** 
-![[RFM Scores Calculation.png]]
+
+![RFM Scores Calculation](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/c72977ff-879c-4bee-a1dd-3ed4db072bea)
+
 More details can be found in the [Jupyter Notebook](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/blob/master/Olist%20-%20RFM%20Analysis.ipynb). 
 
 <a name='RFM-Segmentation'></a>
@@ -214,7 +223,8 @@ Each customer's RFM score is a three-digit number formed by concatenating their 
 ### Customer Segments
 Based on the combined RFM scores, we can classify customers into the following segments:
 
-![[Scoring System.png]]
+![Scoring System](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/9b861047-5ba9-4fff-b8cc-749376b6ceb8)
+
 [Source](https://documentation.bloomreach.com/engagement/docs/rfm-segmentation)
 
 By utilizing this scoring system, we can create tailored marketing campaigns that address the specific needs and behaviors of each customer segment, ultimately driving higher engagement, loyalty, and revenue.
