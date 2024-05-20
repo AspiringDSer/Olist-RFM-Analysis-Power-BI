@@ -20,6 +20,9 @@
 | DAX                                  | Power Query | Python                      |
 
 ![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6bdddbaf-c04c-4643-a745-5a46806713d0)
+![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/71021440-9037-4d7d-9748-4893e06fee64)
+![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/24dc8bf8-eba7-4ac9-b51c-a43f023422be)
+![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/9175350e-05b7-4523-8fcd-044cd92ac3df)
 
 ## Objective 
 
