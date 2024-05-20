@@ -1,8 +1,5 @@
 # Olist - RFM Analysis - Power BI
 
-> [!IMPORTANT]  
-> README documentation is currently under construction and will be completed soon. Expected completion date: May 19 2024. Thank you for your patience!
-
 # Table of Content
 
 1. [Project Overview](#Project-Overview)
