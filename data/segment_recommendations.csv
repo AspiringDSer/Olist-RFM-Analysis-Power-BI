@@ -1,0 +1,12 @@
+Rec_key,Segment,RFM Segment Definition,Retention Strategy
+1,Champions,"Bought recently, order often and spend the most.",Reward them. Can be early adopters of new products. Will promote your brand. Most likely to send referrals.
+2,Loyal,Orders regulary. Responsive to promotions. ,Upsell higher value products. Ask for reviews. Engage Them.
+3,Potential Loyalist,"Recent customers, but spending a good amount & have bought more than once.",Offer membership / loyalty program. Keep them engaged. Offer personalized recommendations.
+4,New Customers,"Bought most recently, but don't purchase often. ","Provide on-boarding support, give them early access, start building relationship."
+5,Promising,Potential loyalist a few months ago. Spends frequently and a good amount. But the last purchase was several weeks ago.,Offer coupons/sample products. Bring them back to the platform and keep them engaged. Offer personalized recommendations. Create brand awareness.
+6,Need Attention,"Above average recency, frequency, & monetary values - will lose them if not reactivated. ",Make limited time offers. Offer personalized recommendations. Reactivate them.
+7,About To Sleep,"Below average recency, frequncy & monetary values - will lose them if not reactivated.",Share valuable resources. Recommend popular products at discount. Reconnect with them. 
+8,At Risk,Spent big money and purchased often but haven't purchased for a long time. ,Provide helpful resources on the site. Send personalized emails. Offer discounts.
+9,Cannot Lose Them,"Made the largest orders, and often. But haven't returned for a long time.","Win them back via renewals or newer products, don't lose them to competition. Talk to them if necessary. Spend time on highest possible personalization."
+10,Hibernating customers,Last purchase was long back - these are low spenders who've placed few orders.,Offer other relevant products and special discounts. Recreate brand value.
+11,Lost customers,"Lowest recency, frequency & monetary scores. ",Revive interest with reach out campaign. Ignore otherwise.

@@ -1,0 +1,50 @@
+﻿Metric,Description
+RFM,A data-driven customer segmentation technique used by businesses to understand and categorize their customers based on their past purchasing behavior.
+Recency (R),The time elapsed since a customer's last transaction.
+Frequency (F),The total number of transactions a customer has completed over a specified period.
+Monetary (M),The total sum a customer has spent during their relationship with the company.
+RFM Segment,"A human-readable mapping to the RFM score. Each segment includes customers with similar Recency, Frequency, and Monetary values (CHAMPIONS, POTENTIAL LOYALIST, RECENT_CUSTOMERS, PROMISING, NEED_ATTENTION, ABOUT_TO_SLEEP, AT_RISK, CANNOT_LOSE, HIBERNATING, LOST)."
+RFM Macro Segment,"A grouping of RFM Segments. LOYAL (CHAMPIONS, POTENTIAL LOYALIST), PROMISING (RECENT_CUSTOMERS, PROMISING, NEED_ATTENTION), SLEEP (ABOUT_TO_SLEEP, AT_RISK, CANNOT_LOSE) LOST (HIBERNATING, LOST)."
+ARPPU,Average Revenue Per Paying User (ARPPU).
+ADSLT (No Outliers),"Average Days Since Last Transaction (ADSLT), excluding customers identified as outliers. Outliers are determined based on the Interquartile Range (IQR) method, ensuring the average is more representative of typical customer behavior."
+% Users Returning,The % of customers that have more that 1 transactions and have not churned.
+AVG Lifetime Days,"Average days since first transactions, across all customers."
+AVG Transactions Per User,"Average Transactions Per User (ATRPU) - The average number of transactions made by a customer, across all customers."
+max_report_date_users__sst,The date the data in the report was last updated
+ARPU,Average Revenue Per User (ARPU).
+% Users One Timers,The % of customers that have 1 transaction.
+ATV,Average Transaction Value (ATV) aka Basket Value.
+% Users New,The % of customers that have 1 transaction and have not churned.
+Total Users - RFM Promising,"Total number of customers with RFM Segment 'D.RECENT_CUSTOMERS' and 'E.PROMISING' and 'F.NEED_ATTENTION', or RFM Macro Segment 'B.PROMISING'."
+ATV (No Outliers),"Average Transaction Value (ATV) aka Basket Value, excluding transactions identified as outliers. Outliers are determined based on the Interquartile Range (IQR) method, ensuring the average is more representative of typical customer behavior."
+AVG Days Between Orders,"Average Days Between Orders (ATRPU) - The average number of days between orders, across all customers. For a customer Days between orders is calculated as the Median of the days bettween his/her orders."
+AVG Days Since Last Transaction,"Average Days Since Last Transaction (ADSLT) - The average number of days since the last transaction of a customer, across all customers."
+AVG Net Revenue Per User,"Average Revenue Per User (ARPU) - The average amount spent by a customer, across all customers."
+LIfeTime (Months),The number of months since user first transaction.
+ATPU (No Outliers),"Average Transactions Per User (ATPU), excluding customers identified as outliers. Outliers are determined based on the Interquartile Range (IQR) method, ensuring the average is more representative of typical customer behavior."
+Total Net Revenue,The total revenue generated (total amount spent) from all customers.
+Total Net Revenue (No Outliers),"The total revenue generated (total amount spent) from all customers, excluding customers identified as outliers. Outliers are determined based on the Interquartile Range (IQR) method, ensuring the average is more representative of typical customer behavior."
+Total Transactions,Total transactions of customers.
+Total Users New,The number of customers that have 1 transaction and have not churned.
+ATPU,Average Transactions Per User (ATPU).
+Total Users Churned,"Total customers who have churned, as determined by their most recent Recency score being classified as '1'. This category indicates that customers in this segment have had the longest duration since their last transaction, suggesting a higher likelihood of churn."
+Total Users (Paid),Total number of customers who have paid at least once.
+ATPPU,Average Transactions Per Paying User (ATPPU).
+Total Users One Timers,The number of customers that have 1 transaction.
+Total Users Returning,The number of customers that have more that 1 transactions and have not churned.
+Total Users - RFM Loyal,"Total number of customers with RFM Segment 'A.CHAMPIONS' and 'B.LOYALS' and 'C.POTENTIAL_LOYALIST', or RFM Macro Segment 'A.LOYALS'."
+Total Users - RFM Sleep,"Total number of customers with RFM Segment 'G.ABOUT_TO_SLEEP' and 'H.AT_RISK' and 'I.CANNOT_LOST', or RFM Macro Segment 'C.SLEEP'."
+Total Users - RFM Lost,"Total number of customers with RFM Segment 'J.HIBERNATING' and 'K.LOST', or RFM Macro Segment 'D.LOST'."
+% Users RFM Loyal,"The % of customers who have churned, as determined by their RFM Segment 'A.CHAMPIONS' and 'B.LOYALS' and 'C.POTENTIAL_LOYALIST', or RFM Macro Segment 'A.LOYALS'."
+% Users RFM Promising,"The % of customers who have churned, as determined by their RFM Segment 'D.RECENT_CUSTOMERS' and 'E.PROMISING' and 'F.NEED_ATTENTION', or RFM Macro Segment 'B.PROMISING'."
+% Users RFM Sleep,"The % of customers who have churned, as determined by their RFM Segment 'G.ABOUT_TO_SLEEP' and 'H.AT_RISK' and 'I.CANNOT_LOST', or RFM Macro Segment 'C.SLEEP'."
+% Users RFM Lost,"The % of customers who have churned, as determined by their RFM Segment 'J.HIBERNATING' and 'K.LOST', or RFM Macro Segment 'D.LOST'. The difference between this metric and the % Users Churned is that the latter is solely based on Recency Score and not on RFM rules."
+Total Users,Total number of customers.
+Total Transactions (Paid),Total paid transactions of customers.
+ARPU (No Outliers),"Average Revenue Per User (ARPU), excluding customers identified as outliers. Outliers are determined based on the Interquartile Range (IQR) method, ensuring the average is more representative of typical customer behavior."
+% Users Churned,"The % of customers who have churned, as determined by their most recent Recency score being classified as '1'. This category indicates that customers in this segment have had the longest duration since their last transaction, suggesting a higher likelihood of churn. The difference between this metric and the % Users RFM Lost is that the latter is based on RFM rules and not just Recency score."""
+% Users (Paid),The % of customers who have paid at least once.
+% Transactions (Paid),The % of transactionbs with positive net revenue.
+% Recent Users ,The % of customers who have a ADSLT of 0-7 days.
+% Frequent Customers ,The % of customers that have more than 10 transactions .
+% Top Spenders,The % of customers that have a M Score of 5.
