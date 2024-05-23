@@ -19,10 +19,10 @@
 | Customer Segmentation (RFM Analysis) | Power BI    | Data Modeling (Star Schema) |
 | DAX                                  | Power Query | Python                      |
 
-![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6bdddbaf-c04c-4643-a745-5a46806713d0)
-![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/71021440-9037-4d7d-9748-4893e06fee64)
-![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/24dc8bf8-eba7-4ac9-b51c-a43f023422be)
-![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/9175350e-05b7-4523-8fcd-044cd92ac3df)
+![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/0a4e8fc1-d332-4a60-a365-f85cbeb5d3bd)
+![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/b6d54df6-fbed-42dd-bba5-21016fe60e54)
+![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/4ef2b5e6-e6d7-4a10-ba9d-bad901246239)
+![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/acf0fe20-47c3-4325-93f1-f836fc193e68)
 
 ## Objective 
 
@@ -49,7 +49,7 @@ Customers are scored on each of these dimensions, and combined scores are used f
 
 - **Visualization of Segments and Insights**
 
-![Customer Segmentation](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/525a4ccf-8264-402d-8ef0-a2b203f18a3f)
+![Recency x Monetary](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/78293c3c-480f-4583-a000-e1e19fc5e708)
 
 <a name='Data-Sources'></a>
 # Data Sources
@@ -90,35 +90,35 @@ The Power BI dashboard is structured to provide users with interactive and insig
 
 1. **RFM Overview**: This page provides a summary of the Recency, Frequency, and Monetary analysis. It includes visualizations and metrics that give an at-a-glance understanding of the overall customer segmentation based on their RFM scores.
    
-![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/a6fc1df9-e6ed-4dd3-bcf7-2008e3efe8c2)
+![RFM Overview](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/0a4e8fc1-d332-4a60-a365-f85cbeb5d3bd)
  
 2. **RFM Movement**: This page tracks the changes in customer segments over time. It helps identify trends and shifts in customer behavior, showing how customers move between different RFM segments.
 
-![RFM Movement](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/5f4dd957-b16e-455f-aa2e-5800ddcbc88f)
+![RFM Movements](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/5e54bdd4-1c39-4fb3-a898-5e8fabc38d08)
     
 3. **RFM Cohorts**: This page analyzes customer cohorts based on their RFM scores. It focuses on the behavior and performance of different customer groups over specific time periods, aiding in cohort-based analysis and comparison.
 
-![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/c6f0f5b5-4b91-4b4e-94af-6a5e74e46af9)
+![RFM Cohorts](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/b6d54df6-fbed-42dd-bba5-21016fe60e54)
 
 4. **Recency Analysis**: This page delves into the recency aspect of the RFM analysis. It includes detailed metrics and visualizations that show how recently customers have made purchases, highlighting trends in customer engagement.
 
-![Recency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/1c7490f5-e822-42ac-bd91-b98f88542b0a)
+![Recency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/e8ca4901-1bca-41ee-a43b-d25ac1838652)
 
 5. **Frequency Analysis**: This page focuses on the frequency of customer purchases. It provides insights into how often customers are buying, helping to identify loyal customers who purchase frequently.
 
-![Frequency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/0d998536-b6f2-45db-81a4-f23a3e4e97c0)
+![Frequency Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/ced3b976-10c8-4337-b7cb-0c4e7a6a2107)
 
 6. **Monetary Analysis**: This page examines the monetary value of customer purchases. It includes detailed analyses and visualizations of the total spending by customers, identifying high-value customers who contribute significantly to revenue.
 
-![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/f82bc3ec-32be-423c-a9d4-dfbc820727b4)
+![Monetary Analysis](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/4ef2b5e6-e6d7-4a10-ba9d-bad901246239)
 
 7. **Recommendations**: This page offers actionable insights and strategic recommendations based on the RFM analysis. It provides guidance on how to target different customer segments to improve retention and maximize profitability.
 
-![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/6c0c9a90-7320-4931-821b-babc547f22bb)
+![Recommendations](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/acf0fe20-47c3-4325-93f1-f836fc193e68)
     
 8. **Glossary**: This page includes definitions of key terms and concepts used in the RFM analysis. It serves as a reference tool to ensure clarity and understanding of specialized terminology used throughout the dashboard.
 
-![Glossary](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/68e97757-629e-4eb4-9e38-927fda516611)
+![Glossary](https://github.com/AspiringDSer/Olist-RFM-Analysis-Power-BI/assets/79289892/675c8f18-f11f-4d12-ad95-0cd98f89bbd6)
 
 <a name='RFM-Calculation'></a>
 # RFM Calculation
